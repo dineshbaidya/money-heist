@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width : 440px)">
     <title>Gallery</title>
 </head>
 <body>
@@ -279,10 +280,10 @@
     </footer>
 </div>
     <script>
-        let likebtn = document.querySelector('.likebtn');
-        let dislikebtn = document.querySelector('.dislikebtn');
-        let input1 = document.querySelector('.input-box1');
-        let input2 = document.querySelector('.input-box2');
+        let likebtn = document.querySelector(".likebtn");
+        let dislikebtn = document.querySelector(".dislikebtn");
+        let input1 = document.querySelector(".input-box1");
+        let input2 = document.querySelector(".input-box2");
     
         likebtn.addEventListener('click',()=>{
             input1.value = parseInt(input1.value) + 1;
